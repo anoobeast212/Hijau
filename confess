@@ -1,0 +1,16 @@
+import sys
+iya = True
+tidak = False
+print("isi data dibawah dengan iya dan tidak")
+pacar = input("apakah kamu punya pacar : ")
+if pacar == "iya":
+    print(":)")
+else:
+    sys.exit("terimakasih")
+
+tembak = input("maukah kamu jadi pacar ku:")
+if tembak == "iya":
+    print("*peluk*")
+else:
+    sys.exit("terimakasih")
+print("terimakasih")
